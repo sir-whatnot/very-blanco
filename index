@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Welcome</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Welcome to my website.</h1>
+    <p class="tagline">Stay and do random stuff NOW!</p>
+
+    <div class="controls">
+      <button id="randomBtn">Do random stuff</button>
+      <button id="surpriseBtn">Surprise me</button>
+    </div>
+
+    <div id="output" class="output" aria-live="polite"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
